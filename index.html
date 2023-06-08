@@ -4,36 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetch Task</title>
     <link rel="stylesheet" href="style.css">
+    <title>claculator</title>
+
 </head>
 <body>
-    <div class="flex">
-        <div id="country1">
-            <h3>afghanistan</h3>
-            <img src="G:\vsimages\afg.png" id="flog" width="100px" height="100px">
-            <div id="capital">Capital:Kabul</div>
-            <div id="region">Region:Asia</div>
-            <div id="country-code">Country code:AFG</div>
-            <input type="searchbox" placeholder="click for weather" id="wether"/>
-        </div>
-        <div id="country2">
-            <h3>Aland Islands</h3>
-            <img src="G:\vsimages\aland.jpg" id="flog" width="100px" height="100px">
-            <div id="capital">Capital:Maniehamn</div>
-            <div id="region">Region:Europe</div>
-            <div id="country-code">Country code:ALA</div>
-            <input type="searchbox" placeholder="click for weather" id="weather"/>
-        </div>
-        <div id="country3">
-            <h3>Albania</h3>
-            <img src="G:\vsimages\albania.webp" id="flog" width="100px" height="100px">
-            <div id="capital">Capital:Tirana</div>
-            <div id="region">Region:Europe</div>
-            <div id="country-code">Country code:ALB</div>
-            <input type="searchbox" placeholder="click for weather" id="weather">
-        </div>
+    <div class="container">
+        <div class="calculator">
+            <input class="input" type="text" placeholder="0" id="output-Screen">
+            <button onclick="clear()">CL</button>
+            <button onclick="DLE()">DLE</button>
+            <button onclick="display(%)">%</button>
+            <button onclick="display(/)">/</button>
+            <button onclick="display(7)">7</button>
+            <button onclick="display(8)">8</button>
+            <button onclick="display(9)">9</button>
+            <button onclick="display(*)">*</button>
+            <button onclick="display(4)">4</button>
+            <button onclick="display(5)">5</button>
+            <button onclick="display(6)">6</button>
+            <button onclick="display(-)">-</button>
+            <button onclick="display(1)">1</button>
+            <button onclick="display(2)">2</button>
+            <button onclick="display(3)">3</button>
+            <button onclick="display(+)">+</button>
+            <button onclick="display(.)">.</button>
+            <button onclick="display(0)">0</button>
+            <button onclick="calculate()" class="equal">=</button>
+         </div>  
     </div>
-       <script src="script.js"></script>
+    <script src="cul.js"></script>
 </body>
 </html>
