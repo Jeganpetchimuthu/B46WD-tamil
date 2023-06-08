@@ -1,19 +1,39 @@
-<html>
-    <head>
-        <title>window vs document object</title>
-
-    </head>
-    <body>
-        <div>
-            <table>
-               <h5>window<h5>
-               <p>the window object repersents awindow/tab containg a DOM document where as document object is property of window object that points to the DOM documents loaded in that window</p>
-            </table>
-            <table>
-                <h5>document object<h5>
-                    <p>Each HTML document that gets loaded into a window become adocument object. the document contains the of the page using document object javascripts can modify ,add,and delete the HTML elements, attributes css styles in the page</p>
-            </table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex">
+        <div id="country1">
+            <h3>afghanistan</h3>
+            <img src="G:\vsimages\afg.png" id="flog" width="100px" height="100px">
+            <div id="capital">Capital:Kabul</div>
+            <div id="region">Region:Asia</div>
+            <div id="country-code">Country code:AFG</div>
+            <input type="searchbox" placeholder="click for weather" id="wether"/>
         </div>
-        
-    </body>
+        <div id="country2">
+            <h3>Aland Islands</h3>
+            <img src="G:\vsimages\aland.jpg" id="flog" width="100px" height="100px">
+            <div id="capital">Capital:Maniehamn</div>
+            <div id="region">Region:Europe</div>
+            <div id="country-code">Country code:ALA</div>
+            <input type="searchbox" placeholder="click for weather" id="weather"/>
+        </div>
+        <div id="country3">
+            <h3>Albania</h3>
+            <img src="G:\vsimages\albania.webp" id="flog" width="100px" height="100px">
+            <div id="capital">Capital:Tirana</div>
+            <div id="region">Region:Europe</div>
+            <div id="country-code">Country code:ALB</div>
+            <input type="searchbox" placeholder="click for weather" id="weather">
+        </div>
+    </div>
+       <script src="script.js"></script>
+</body>
 </html>
